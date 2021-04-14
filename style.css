@@ -1,0 +1,332 @@
+body{
+  padding: 2rem 7rem;
+
+}
+
+
+/* Navigation Syling*/
+
+.navbar{
+  width: 100%;
+  position: sticky;
+  display: flex;
+  top: 0;
+  z-index: 999;
+  justify-content: space-evenly;
+  border-bottom: 0.1px solid lightgrey;
+  padding: 10px;
+}
+
+.logo img{
+  object-fit: contain;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo{
+  display: flex;
+}
+
+.navitems{
+  display: flex;
+}
+
+.header-search{
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  color: grey;
+  background-color: #eef3f8;
+}
+
+.header-search input{
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.option{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 30px;
+  color: grey;
+  cursor: pointer;
+
+}
+
+.option:hover{
+  color: black;
+}
+
+.option p{
+  margin-top: 5px;
+  font-weight: bold;
+}
+/*nav{
+  width: 100%;
+  color: grey;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  padding-left: 4rem;
+
+}
+
+.navitems{
+  display: flex;
+}
+
+.fa-linkedin{
+  padding-right: 20px;
+  color: blue;
+  font-size: 40px;
+}
+
+.navitems i{
+
+  color: grey;
+  padding-right: 2rem;
+  font-size: 16px;
+}
+
+.text{
+  display: flex;
+  flex-direction: row;
+}
+.navitems{
+  padding-left: 20rem;
+  color: grey;
+}
+
+input{
+  color: grey;
+  background-color: #f4f9f9;
+  border-style: none;
+  transform: translateY(-10px);
+  top: 10px;
+}
+.fa-search{
+  position: absolute;
+  background-color: #f4f9f9;
+  padding: 5px;
+  transform: translateX(-5px);
+  top: 16px;
+}
+
+.middle img{
+  position: absolute;
+  border-radius: 50%;
+  width: 11rem;
+  height: 12rem;
+}
+*/
+/*home styling */
+
+.profile{
+  position: absolute;
+  width: 9rem;
+  height: 9.5rem;
+  border-radius: 50%;
+  transform: translateX(-450%);
+  top: 30%;
+}
+
+.cover{
+  height: 50%;
+}
+
+h1{
+  padding-top: 60px;
+  width: 1.5
+}
+
+.contact{
+  color: blue;
+}
+.contact{
+  text-decoration: underline;
+}
+
+.third{
+  font-size: 20px;
+  color: black;
+}
+
+.university{
+  width: 50px;
+}
+
+.second-col{
+  top: 280px;
+  transform: translateY(200%);
+  transform: translateX(-120%);
+}
+
+.message{
+  font-size: 15px;
+  text-decoration: none;
+  color: blue;
+  border: 2px solid;
+  border-color: blue;
+  border-radius: 40px;
+  padding: 10px 20px;
+}
+
+.third-col{
+  transform: translateX(-10px);
+  font-size: 14px;
+}
+
+.third-col h4{
+  font-size: 18px;
+  font-weight: bold;
+}
+/* Activity styling */
+.container{
+  position: relative;
+  width: 20%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
+.profile2{
+  border-radius: 50%;
+  width: 70px;
+}
+
+.col-activity{
+  display: flex;
+  font-size: 12px;
+}
+
+.container2{
+
+}
+.container2 .p-activity{
+  position: absolute;
+  display: inline;
+  font-size: 13px;
+  transform: translateY(250%);
+  margin-left: 10px;
+}
+
+.container2 h4{
+    position: absolute;
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    transform: translateY(160%);
+    margin-left: 10px;
+
+}
+
+.container2 a{
+  margin-left: 29%;
+}
+
+/*Experience styling */
+.col-exp{
+  transform: translateX(-75%);
+  line-height: 10px;
+}
+
+.expereince-img{
+  width: 100px;
+}
+
+.col-exp h4{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.p-exp{
+  font-size: 14px;
+}
+
+.p-exp2{
+  color: grey;
+  font-size: 14px;
+}
+
+/*Skills and endorsements styling */
+
+.skills span{
+  font-size: 15px;
+  color: grey;
+}
+
+.skills h3{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.skills p{
+  font-size: 14px;
+}
+
+.skills a{
+  margin-left: 40%;
+}
+
+
+/*Interest styling */
+.intrest-img{
+  border-radius: 50%;
+  width: 100px;
+}
+
+.intrest-h4{
+  position: absolute;
+  font-weight: bold;
+  margin-left: 20px;
+
+}
+
+.p-intrest{
+  font-size: 14px;
+  position:absolute;
+  top: 40%;
+  transform: translateY(-300%);
+  transform: translateX(40%);
+  color: #6e7c7c;
+  margin-bottom: 3px;
+  margin-top: 3px;
+}
+
+.p-intrest2{
+  font-size: 14px;
+  position:absolute;
+  top: 58%;
+  transform: translateY(-200%);
+  transform: translateX(92%);
+  color: #6e7c7c;
+  margin-top: 3px;
+}
+
+/*footer Styling */
+
+.logo2{
+  width: 7rem;
+}
+
+.footer-col{
+  font-size: 14px;
+  color: #686d76;
+  font-weight: bold;
+}
+
+.small-text{
+  font-size: 10px;
+  transform: translateY(-15px);
+  color: #7e7474;
+}
+
+select{
+  color: #686d76;
+}
